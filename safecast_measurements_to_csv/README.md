@@ -10,4 +10,6 @@ TODO
 TODO
 
 ## Testing
-Run tests using the command: python -m unittest discover tests
+Run tests using the command: 
+```
+python -m unittest discover tests
