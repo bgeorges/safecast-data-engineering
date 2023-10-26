@@ -1,0 +1,4 @@
+{
+    "safecast_api_url": "https://api.safecast.org/measurements.json",
+    "csv_file_path": "./output.csv"
+}
