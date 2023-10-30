@@ -1,1 +1,20 @@
-[{"timestamp": "2023-05-01T12:00:00Z", "id": 1, "value": 100}]
+[
+    {
+        "id": 17883334,
+        "user_id": 2,
+        "value": 39.0,
+        "unit": "cpm",
+        "location_name": null,
+        "device_id": null,
+        "original_id": null,
+        "measurement_import_id": 11529,
+        "captured_at": "2012-11-11T16:00:37.000Z",
+        "height": null,
+        "devicetype_id": null,
+        "sensor_id": null,
+        "station_id": null,
+        "channel_id": null,
+        "latitude": 35.708301666666664,
+        "longitude": 139.6147016666667
+    }
+]
