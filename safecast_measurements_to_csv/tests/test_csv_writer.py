@@ -4,10 +4,21 @@ import os
 import json
 import csv
 
+
+class TestCsvWriter(unittest.TestCase):
+    """
+    A unit test class for the CsvWriter module.
+
+    This class contains test cases for the json_to_csv function, which converts JSON data to CSV format.
+    """
+    def test_json_to_csv(self):
+        # test code here
 class TestCsvWriter(unittest.TestCase):
     def test_json_to_csv(self):
         # Mock JSON data
-        sample_json = [{"timestamp": "2023-05-01T12:00:00Z", "id": 1, "value": 100}]
+        sample_json = [
+            {"timestamp": "2023-05-01T12:00:00Z", "id": 1, "value": 100}
+        ]
 
         # Load CSV file path from config
         with open('config.json', 'r') as config_file:
@@ -28,6 +39,7 @@ class TestCsvWriter(unittest.TestCase):
 
         # Clean up (delete the generated CSV file)
         os.remove(csv_file_path)
+
 
 if __name__ == '__main__':
     unittest.main()
